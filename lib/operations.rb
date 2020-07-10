@@ -5,14 +5,14 @@ def unsafe?(speed)
     safe
   end  
 end
-unsafe(95)
+
 
 
 
 def not_safe?(speed)
   #{speed} < 40 || > 60 ? unsafe : safe
 end
-not_safe(95)
+
 	
 
 
